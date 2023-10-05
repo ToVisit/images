@@ -1,31 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>To Visit - Image CDN</title>
-    <meta http-equiv="refresh" content="5; url='https://tovisit.eu'" />
+    <meta http-equiv="Refresh" content="0; url='https://tovisit.eu/404.html'" />
   </head>
-  <body>
-    <p>Hey there! It looks like you stumbled upon a restricted directory and will be redirected <span id="countdown-wrapper">in <span id="countdown">5</span></span> seconds.</p>
-    <script>
-        // Function to start the countdown
-        function startCountdown() {
-            var countdownElement = document.getElementById("countdown");
-            var countdownWrapper = document.getElementById("countdown-wrapper");
-            var countdown = 5; // Set the initial countdown time in seconds
-
-            var countdownInterval = setInterval(function() {
-                countdown--;
-                countdownElement.textContent = countdown; // Update the countdown display
-
-                if (countdown <= 0) {
-                    clearInterval(countdownInterval); // Stop the countdown when it reaches 0
-                    counntdownWrapper.textContent = "now";
-                }
-            }, 1000); // Update the countdown every 1000 milliseconds (1 second)
-        }
-
-        // Start the countdown when the page loads
-        window.onload = startCountdown;
-    </script>
-  </body>
 </html>
